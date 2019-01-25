@@ -24,23 +24,17 @@ public class Main {
         System.out.println("Enter a string: ");
         String str = in.nextLine();
         System.out.println(str);
-
         LinkedHashMap<Character, Integer> tempNumberOf = new LinkedHashMap<Character, Integer>();
 
         for (int i = 0; i < str.length(); i++) {
             char value = str.charAt(i);
             Integer countVal = tempNumberOf.get(value);
-
             if (countVal != null) {
                 tempNumberOf.put(value, (countVal + 1));
             } else {
                 tempNumberOf.put(value, 1);
             }
-//            tempNumberOf.merge(value,countVal,(oldValue,newValue)-> );
         }
-
         System.out.println(tempNumberOf);
-
-
     }
 }
