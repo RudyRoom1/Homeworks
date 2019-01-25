@@ -1,4 +1,4 @@
-package com.company.task2.interfaceShip;
+package com.company.lesson6.task2.interfaceShip;
 
 //Task2
 //6. interface Корабль <- abstract class Военный Корабль <- class Авианосец.

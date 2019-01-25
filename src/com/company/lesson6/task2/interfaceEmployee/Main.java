@@ -1,4 +1,4 @@
-package com.company.task2.interfaceEmployee;
+package com.company.lesson6.task2.interfaceEmployee;
 
 //Task
 //3. interface Сотрудник <- class Инженер <- class Руководитель.

@@ -1,6 +1,5 @@
 package com.company.lesson6.task1;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Scanner;

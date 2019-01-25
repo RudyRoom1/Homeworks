@@ -1,4 +1,4 @@
-package com.company.task2.interfaceEmployee;
+package com.company.lesson6.task2.interfaceEmployee;
 
 public interface Employable {
     void comeToWork(int time);

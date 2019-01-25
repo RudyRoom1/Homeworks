@@ -1,4 +1,4 @@
-package com.company.task2.interfaceEmployee;
+package com.company.lesson6.task2.interfaceEmployee;
 
 public class Engineer implements Employable {
     private String name;
