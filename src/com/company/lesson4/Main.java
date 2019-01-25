@@ -6,24 +6,11 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-//        HashMap<Integer, String> newMap = new HashMap<>();
-//        newMap.put(1,"Andy");
-//        newMap.put(2,"Andy");
-//        newMap.put(3,"Andy");
-//        for (Map.Entry<Integer, String>  entry : newMap.entrySet()) {
-//            System.out.println(entry.getKey());
-//        }
-
-//        Main.Task1();
-//        Main.Task2();
-
-        Person person = new Person("Name", "LastName", "Patr", LocalDate.of(2016, 3, 1), "address", "phone");
-        Student student = new Student(person, 1, "FITKI", 2, "2A");
-        System.out.println(student);
+        Main.Task1();
+        Main.Task2();
     }
 
-    public static void Task1() {
+    private static void Task1() {
         ArrayList<Student> students = new Test().listOfStudent();
         University vntu = new University("VNTU", students);
         vntu.sortByFaculty("fitki");
@@ -32,7 +19,7 @@ public class Main {
         vntu.sortByGroup("ki");
     }
 
-    public static void Task2() {
+    private static void Task2() {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a string: ");
         String str = in.nextLine();

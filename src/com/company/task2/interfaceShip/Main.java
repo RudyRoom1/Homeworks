@@ -1,4 +1,4 @@
-package com.company.lesson6.task2.interfaceShip;
+package com.company.task2.interfaceShip;
 
 //Task2
 //6. interface Корабль <- abstract class Военный Корабль <- class Авианосец.
@@ -11,7 +11,7 @@ public class Main {
         shipInterface();
     }
 
-    public static void shipInterface() {
+    private static void shipInterface() {
         MilitaryShip orlando = new AircraftShip("Orlando");
         AircraftShip orlandos = new AircraftShip("Orlando");
         ArrayList<String> arming = new ArrayList<>();

@@ -1,4 +1,4 @@
-package com.company.lesson6.task2.interfaceShip;
+package com.company.task2.interfaceShip;
 
 import java.util.ArrayList;
 
