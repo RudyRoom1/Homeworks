@@ -65,6 +65,6 @@ public class Student extends Person {
                 ", facultyStudent='" + facultyStudent + '\'' +
                 ", courseStudent='" + courseStudent + '\'' +
                 ", groupStudent='" + groupStudent + '\'' +
-                '}';
+                "\n}" ;
     }
 }
