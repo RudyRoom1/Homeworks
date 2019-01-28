@@ -6,8 +6,6 @@ public class CustomData {
 
     private static final DateTime NOW = new DateTime();
 
-
-
     public static String changingDateFormat(DateFormats timeFormat, String datetime) {
 //        DateTimeFormatter dtf = DateTimeFormat.forPattern("yyyy-MM-dd");
 //        DateTime jodatime = dtf.parseDateTime(datetime);
@@ -51,8 +49,6 @@ public class CustomData {
         System.out.println(res);
         return res;
     }
-
-
 
     public static String dayOfWeek(long date) {
         String dayOfWeeks = getDateFromLong(date).dayOfWeek().getAsText();
